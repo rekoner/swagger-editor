@@ -39,6 +39,11 @@
     "start": "npm-run-all --parallel serve-static open-static",
     "watch": "webpack --config  ./webpack-dist.config.js --watch --progress"
   },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "swagger-ui": "^3.17.3"
+  },
   "dependencies": {
     "ajv": "^5.2.2",
     "boron": "^0.2.3",
@@ -54,20 +59,17 @@
     "promise-worker": "^1.1.1",
     "prop-types": "15.6.0",
     "querystring-browser": "^1.0.4",
-    "react": "^15.6.2",
     "react-ace": "^4.1.6",
     "react-addons-css-transition-group": "^15.4.2",
     "react-dd-menu": "^2.0.0",
-    "react-dom": "^15.6.2",
     "react-dropzone": "4.2.11",
     "react-file-download": "^0.3.2",
     "react-immutable-proptypes": "^2.1.0",
     "react-redux": "^4.x.x",
-    "react-transition-group": "^1.1.1",
+    "react-transition-group": "^2.4.0",
     "redux": "^3.x.x",
     "reselect": "^2.5.4",
     "swagger-client": "^3.8.5",
-    "swagger-ui": "^3.17.2",
     "traverse": "^0.6.6",
     "whatwg-fetch": "^2.0.3",
     "yaml-js": "^0.1.4"
